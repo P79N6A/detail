@@ -1,0 +1,2 @@
+# detail
+About common component
