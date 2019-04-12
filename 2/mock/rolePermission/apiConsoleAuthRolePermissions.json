@@ -1,0 +1,168 @@
+{
+    "ret": "SUCCESS",
+    "msg": "ok",
+    "content": [
+        {
+            "operationCode": "edit",
+            "operationName": "编辑",
+            "resources": [
+                {
+                    "resourceId": "1",
+                    "resourceName": "系统",
+                    "isOwned": false,
+                    "children": [
+                        {
+                            "resourceId": "1_1",
+                            "resourceName": "管理后台",
+                            "isOwned": false,
+                            "children": [
+                                {
+                                    "resourceId": "1_1_1",
+                                    "resourceName": "统计及服务监控",
+                                    "isOwned": false
+                                },
+                                {
+                                    "resourceId": "1_1_2",
+                                    "resourceName": "用户管理",
+                                    "isOwned": false,
+                                    "children": [
+                                        {
+                                            "resourceId": "1_1_2_1",
+                                            "resourceName": "用户帐号管理",
+                                            "isOwned":  true
+                                        },
+                                        {
+                                            "resourceId": "1_1_2_2",
+                                            "resourceName": "业务分组管理",
+                                            "isOwned": true
+                                        },
+                                        {
+                                            "resourceId": "1_1_2_3",
+                                            "resourceName": "角色权限管理",
+                                            "isOwned": true
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "resourceId": "1_2",
+                            "resourceName": "思维训练平台",
+                            "isOwned": false,
+                            "children": [
+                                {
+                                    "resourceId": "1_2_1",
+                                    "resourceName": "思维训练平台test1",
+                                    "isOwned": false
+                                },
+                                {
+                                    "resourceId": "1_2_2",
+                                    "resourceName": "思维训练平台test2",
+                                    "isOwned": false,
+                                    "children": [
+                                        {
+                                            "resourceId": "1_2_2_1",
+                                            "resourceName": "思维训练平台test3",
+                                            "isOwned":  false
+                                        },
+                                        {
+                                            "resourceId": "1_2_2_2",
+                                            "resourceName": "思维训练平台test4",
+                                            "isOwned": false
+                                        },
+                                        {
+                                            "resourceId": "1_2_2_3",
+                                            "resourceName": "思维训练平台test5",
+                                            "isOwned": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "operationCode": "see",
+            "operationName": "查看",
+            "resources": [
+                {
+                    "resourceId": "2",
+                    "resourceName": "系统2",
+                    "isOwned": false,
+                    "children": [
+                        {
+                            "resourceId": "2_1",
+                            "resourceName": "管理后台",
+                            "isOwned": false,
+                            "children": [
+                                {
+                                    "resourceId": "1_1_1",
+                                    "resourceName": "统计及服务监控",
+                                    "isOwned": false
+                                },
+                                {
+                                    "resourceId": "2_1_2",
+                                    "resourceName": "用户管理",
+                                    "isOwned": false,
+                                    "children": [
+                                        {
+                                            "resourceId": "2_1_2_1",
+                                            "resourceName": "用户帐号管理",
+                                            "isOwned":  false
+                                        },
+                                        {
+                                            "resourceId": "2_1_2_2",
+                                            "resourceName": "业务分组管理",
+                                            "isOwned": true
+                                        },
+                                        {
+                                            "resourceId": "2_1_2_3",
+                                            "resourceName": "角色权限管理",
+                                            "isOwned": true
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "resourceId": "2_2",
+                            "resourceName": "思维训练平台",
+                            "isOwned": false,
+                            "children": [
+                                {
+                                    "resourceId": "2_2_1",
+                                    "resourceName": "思维训练平台test1",
+                                    "isOwned": false
+                                },
+                                {
+                                    "resourceId": "2_2_2",
+                                    "resourceName": "思维训练平台test2",
+                                    "isOwned": false,
+                                    "children": [
+                                        {
+                                            "resourceId": "2_2_2_1",
+                                            "resourceName": "思维训练平台test3",
+                                            "isOwned":  false
+                                        },
+                                        {
+                                            "resourceId": "2_2_2_2",
+                                            "resourceName": "思维训练平台test4",
+                                            "isOwned": false
+                                        },
+                                        {
+                                            "resourceId": "2_2_2_3",
+                                            "resourceName": "思维训练平台test5",
+                                            "isOwned": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

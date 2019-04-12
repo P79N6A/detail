@@ -1,0 +1,33 @@
+<!-- htmlcs-disable -->
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body><script type="text/javascript">
+/* eslint-disable */
+(function(){
+    var queryStr = location.search.substring(1).split('&')
+    ,oneQueryStr
+    ,callbackStr
+    ,config = {};
+    for(var i in queryStr){
+        oneQueryStr = queryStr[i].split('=');
+        if(!callbackStr && oneQueryStr[0] == 'callback'){
+            callbackStr = oneQueryStr[1];
+        };
+        config[oneQueryStr[0]] = oneQueryStr[1];
+    }
+    if(!!callbackStr){
+        var cbSegs = callbackStr.split('.');
+        if(cbSegs[0] == "parent") { 
+            parent[cbSegs[1]](config); 
+        }
+    }
+    var _callback = config['_callback'];
+    if(parent[_callback]){
+        parent[_callback](config);
+    }
+    if(parent.ucCallback){
+        parent.ucCallback(config);
+    }
+    //parent.bdPass.api[callbackStr](config);
+})();
+</script>
+</body></html>

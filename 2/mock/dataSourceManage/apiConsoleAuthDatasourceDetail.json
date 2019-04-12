@@ -1,0 +1,15 @@
+{
+    "ret": "SUCCESS",
+    "msg": "添加成功",
+    "content": {
+        "dataSourceId": 1,
+        "address": "http://ww",
+        "port": 3020,
+        "type": "MYSQL",
+        "name": "数据库",
+        "desc": "用来描述的",
+        "username": "12345",
+        "password": 12344,
+        "status": "S"
+    }
+}

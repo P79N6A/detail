@@ -1,0 +1,20 @@
+{
+    "ret": "SUCCESS",
+    "msg": "处理成功",
+    "content": {
+      "list": [
+        {
+          "taskCode": "t0000",
+          "taskName": "任务名称",
+          "categoryName": "任务类型",
+          "createTime": "2018-06-01"
+        }
+      ],
+      "paginator": {
+        "pageNo": 1,
+        "totalCount": 1,
+        "pageSize": 10
+      }
+    }
+}
+  

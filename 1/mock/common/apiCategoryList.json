@@ -1,0 +1,19 @@
+{
+    "ret": "SUCCESS",
+    "msg": "处理成功",
+    "content": [
+      {
+        "categoryCode": "dsfddd",
+        "categoryName": "类型"
+      },
+      {
+        "categoryCode": "uuuuuu",
+        "categoryName": "类型2"
+      },
+      {
+        "categoryCode": "category_00000",
+        "categoryName": "新建类型"
+      }
+    ]
+}
+  

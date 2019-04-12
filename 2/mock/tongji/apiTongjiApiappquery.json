@@ -1,0 +1,102 @@
+{
+    "ret": "SUCCESS",
+    "msg": "ok",
+    "content": {
+        "apiList": [
+            {
+                "apiId": "face",
+                "apiName": "人脸识别"
+            },
+            {
+                "apiId": "voice",
+                "apiName": "语音识别"
+            },
+            {
+                "apiId": "voices",
+                "apiName": "语义识别"
+            },
+            {
+                "apiId": "ocr",
+                "apiName": "ocr识别"
+            }
+        ],
+        "appList": [
+            {
+                "appId": "1",
+                "appName": "掌银"
+            },
+            {
+                "appId": "2",
+                "appName": "招商"
+            },
+            {
+                "appId": "3",
+                "appName": "百度"
+            }
+        ],
+        "totalCount": 3,
+        "pageSize": 20,
+        "detailList": [
+            {
+                "tongjiDate": "2018-09-30",
+                "appId": "2",
+                "appName": "掌银",
+                "apiId": "3",
+                "apiName": "识别",
+                "count": 12,
+                "sys_succ_count": 15,
+                "sys_succ_rate": 0.3,
+                "biz_succ_count": 20,
+                "biz_succ_rate": 0.5
+            },
+            {
+                "tongjiDate": "2018-08-23",
+                "appId": "1",
+                "appName": "百度",
+                "apiId": "4",
+                "apiName": "人脸",
+                "count": 20,
+                "sys_succ_count": 15,
+                "sys_succ_rate": 0.5,
+                "biz_succ_count": 20,
+                "biz_succ_rate": 0.5
+            },
+            {
+                "tongjiDate": "2018-07-20",
+                "appId": "9",
+                "appName": "招行",
+                "apiId": "4",
+                "apiName": "人脸",
+                "count": 40,
+                "sys_succ_count": 15,
+                "sys_succ_rate": 0.5,
+                "biz_succ_count": 20,
+                "biz_succ_rate": 0.5
+            },
+            {
+                "tongjiDate": "2018-07-20",
+                "appId": "6",
+                "appName": "招行",
+                "apiId": "4",
+                "apiName": "人脸",
+                "count": 40,
+                "sys_succ_count": 15,
+                "sys_succ_rate": 0.8,
+                "biz_succ_count": 20,
+                "biz_succ_rate": 0.5
+            },
+            {
+                "tongjiDate": "2018-07-20",
+                "appId": "o",
+                "appName": "招行",
+                "apiId": "4",
+                "apiName": "人脸",
+                "count": 40,
+                "sys_succ_count": 15,
+                "sys_succ_rate": 0.9,
+                "biz_succ_count": 20,
+                "biz_succ_rate": 0.5
+            }
+        ]
+    }
+}

@@ -1,0 +1,160 @@
+.rolePermission-wrapper {
+    .role-table-header {
+        overflow: hidden;
+
+        .add-role {
+            float: right;
+            margin-bottom: 20px;
+        }
+    }
+
+    .show-area {
+        margin: auto;
+        width: 500px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+.setRoleModal-wrapper {
+    .setRole-wrapper {
+        border: 1px solid #e8e8e8;
+
+        .setRole-select-wrapper {
+            border-bottom: 1px solid #e8e8e8;
+
+            .setRole-select {
+                width: 200px;
+                padding: 5px 20px;
+                margin: 10px 0;
+            }
+        }
+
+        .setRole-tree-wrapper {
+            height: 300px;
+
+            > div {
+                width: 48%;
+                height: 100%;
+                overflow: scroll;
+            }
+
+            .tree-check {
+                float: left;
+                border-right: 1px solid #e8e8e8;
+            }
+
+            .tree-display {
+                float: right;
+                border-left: 1px solid #e8e8e8;
+            }
+
+            .hide-item {
+                display: none;
+            }
+        }
+    }
+}
+
+.setRoleModal1-wrapper {
+    .operator-area {
+        .select-wrapper {
+            width: 100%;
+            padding: 5px 20px;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #e8e8e8;
+
+            .select-header {
+                width: 200px;
+            }
+        }
+    }
+    .operation-wrapper {
+        height: 130px;
+        overflow: scroll;
+        border-bottom: 1px solid #e8e8e8;
+
+        ul {
+            list-style: none;
+            position: relative;
+            display: none;
+            width: 200px;
+
+            li {
+                list-style: none;
+                width: 160px;
+                position: relative;
+                padding-bottom: 5px;
+
+                ul {
+                    position: absolute;
+                    width: 200px;
+                    top: 0;
+                    left: 200px;
+                }
+            }
+        }
+
+        // .active-item {
+        //     padding-bottom: 5px;
+        // }
+
+        .row1 {
+            display: block;
+        }
+
+        .row {
+            border-right: 1px solid #e1e1e1;
+        }
+
+        .last-ul {
+            border-right: 0;
+        }
+
+        .active-line > span {
+            color: #1890ff;
+        }
+
+        .active-line {
+            border-right: 2px solid #1890ff;
+        }
+
+        .last-ul .last-line {
+            border-right: 0;
+        }
+
+        .click-area {
+            cursor: pointer;
+
+            &:hover {
+                color: #1890ff;
+            }
+        }
+    }
+
+    .selected-header {
+        margin: 10px;
+        font-size: 14px;
+        font-weight: bolder;
+    }
+
+    .selected-wrapper {
+        height: 130px;
+        overflow: scroll;
+        border: 1px solid #e8e8e8;
+        padding: 5px;
+
+        ul {
+            list-style: square;
+        }
+    }
+
+    .edit-type {
+        display: none;
+
+        &:first-child {
+            display: block;
+        }
+    }
+}

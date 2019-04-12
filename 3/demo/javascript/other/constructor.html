@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function Base (base) {
+            this.base = base;
+        }
+        Base.prototype.test = function () {
+            console.log('base de test function')
+        }
+        // 方法一
+        const createClass = function () {
+            return Base;
+        }
+        const table1 = new createClass();
+        const table2 = new createClass();
+        console.log(table1.constructor === table2.constructor)   // 返回true
+        // 方法二
+        const createClass1 = function () {
+            const Constructor = function () {
+                console.log('this is createclass limian de constructor')
+            }
+            Constructor.prototype =  new Base('base');
+            Constructor.prototype.constructor = Constructor;
+            return Constructor;
+        }
+        const table3 = new createClass1();
+        const table4 = new createClass1();
+        console.log(table3.constructor === table4.constructor);   // 返回true
+
+
+
+      
+    </script>
+</body>
+</html>

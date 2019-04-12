@@ -1,0 +1,30 @@
+{
+  "ret": "SUCCESS",
+  "msg": "处理成功", 
+  "content":  [{
+      "resultCode": "resulttype_00004",
+      "resultDesc": "其他",
+      "resultExplain": "其他",
+      "createTime": "2018-05-05"
+  },{
+      "resultCode": "resulttype_00003",
+      "resultDesc": "拒绝",
+      "resultExplain": "拒绝",
+      "createTime": "2018-05-05"
+  },{
+      "resultCode": "resulttype_00001",
+      "resultDesc": "跳转新模型",
+      "resultExplain": "跳转新模型",
+      "createTime": "2018-05-05"
+  },{
+      "resultCode": "resulttype_00000",
+      "resultDesc": "新建决策",
+      "resultExplain": "新建决策",
+      "createTime": "2018-05-05"
+  },{
+      "resultCode": "resulttype_00002",
+      "resultDesc": "继续",
+      "resultExplain": "继续",
+      "createTime": "2018-05-05"
+  }]
+}

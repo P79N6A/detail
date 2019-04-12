@@ -1,0 +1,21 @@
+{
+    "ret": "SUCCESS",
+    "msg": "添加成功",
+    "content": [
+        {
+            "userId": 1,
+            "userName": "admin",
+            "admin": true
+        },
+        {
+            "userId": 2,
+            "userName": "user1",
+            "admin": false
+        },
+        {
+            "userId": 3,
+            "userName": "user2",
+            "admin": false
+        }
+    ]
+}

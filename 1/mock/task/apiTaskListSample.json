@@ -1,0 +1,24 @@
+{
+    "ret": "SUCCESS",
+    "msg": "处理成功",
+    "content": {
+        "list": [
+            {
+                "sampleId": 123,
+                "idCard": "11111",
+                "resultName": "通过"
+            },
+            {
+                "sampleId": 321,
+                "idCard": "11112222",
+                "resultName": "拒绝"
+            }
+        ],
+        "paginator": {
+            "pageNo": 1,
+            "totalCount": 2,
+            "pageSize": 50,
+            "totalPages": 1
+        }
+    }
+}

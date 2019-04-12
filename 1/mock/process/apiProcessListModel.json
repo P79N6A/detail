@@ -1,0 +1,35 @@
+{
+
+    "ret": "SUCCESS",
+
+    "msg": "处理成功",
+
+    "content": [ 
+
+        {
+
+            "modelCode": "huaihai_model",
+
+            "modelName": "淮海模型",
+
+            "modelType": "REMOTE",
+
+            "relateProcessCount": 1
+
+        },
+
+        {
+
+            "modelCode": "test_model",
+
+            "modelName": "测试模型",
+
+            "modelType": "REMOTE",
+
+            "relateProcessCount": 0
+
+        }
+
+    ]
+
+}

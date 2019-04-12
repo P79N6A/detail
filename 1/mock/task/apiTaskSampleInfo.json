@@ -1,0 +1,43 @@
+{
+    "ret": "SUCCESS",
+    "msg": "处理成功",
+    "content": [
+        {
+            "type": "input",
+            "name": "idCard",
+            "displayName": "身份证号",
+            "isRequire": true,
+            "options": null
+        },
+        {
+            "type": "input",
+            "name": "customName",
+            "displayName": "客户姓名",
+            "isRequire": true,
+            "options": null
+        },
+        {
+            "type": "input",
+            "name": "age",
+            "displayName": "年龄",
+            "isRequire": true,
+            "options": null
+        },
+        {
+            "type": "select",
+            "name": "province",
+            "displayName": "所在省份",
+            "isRequire": true,
+            "options": [
+                {
+                    "value": "1",
+                    "displayName": "北京"
+                },
+                {
+                    "value": "2",
+                    "displayName": "上海"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "ret": "SUCCESS",
+    "msg": "成功",
+    "content": {
+        "totalCount": 2,
+        "resourceConfigList": [
+            {
+                "resourceConfigId": 1,
+                "resourceConfigName": "hakfaklfhalf",
+                "resourceConfigDescription": "备注"
+            },
+            {
+                "resourceConfigId": 2,
+                "resourceConfigName": "jlkjalkfjalkfj",
+                "resourceConfigDescription": "备注"
+            },{
+                "resourceConfigId": 3,
+                "resourceConfigName": "oiryqoiyrn,nff",
+                "resourceConfigDescription": "备注"
+            }
+        ]
+    }
+}

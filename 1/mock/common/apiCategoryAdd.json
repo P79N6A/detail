@@ -1,0 +1,9 @@
+{
+    "ret": "SUCCESS",
+    "msg": "处理成功",
+    "content": {
+      "categoryCode": "newtype",
+      "categoryName": "测试新建类型"
+    }
+}
+  

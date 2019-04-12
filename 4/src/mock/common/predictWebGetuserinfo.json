@@ -1,0 +1,9 @@
+{
+    "ret": "SUCCESS",
+    "msg": "成功",
+    "content": {
+        "userName": "章三",
+        "userId": "123",
+        "logoutUrl": "www.baidu.com"
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "ret": "SUCCESS",
+    "msg": "添加成功",
+    "content": [
+        {
+            "spaceId": 1,
+            "spaceName": "空间一",
+            "hasPerm": true
+        },
+        {
+            "spaceId": 2,
+            "spaceName": "空间二",
+            "hasPerm": false
+        },
+        {
+            "spaceId": 3,
+            "spaceName": "空间三",
+            "hasPerm": true
+        },
+        {
+            "spaceId": 4,
+            "spaceName": "空间一",
+            "hasPerm": true
+        },
+        {
+            "spaceId": 5,
+            "spaceName": "空间二",
+            "hasPerm": false
+        },
+        {
+            "spaceId": 6,
+            "spaceName": "空间三",
+            "hasPerm": true
+        },
+        {
+            "spaceId": 7,
+            "spaceName": "空间一",
+            "hasPerm": true
+        },
+        {
+            "spaceId": 8,
+            "spaceName": "空间二",
+            "hasPerm": false
+        },
+        {
+            "spaceId": 9,
+            "spaceName": "空间三",
+            "hasPerm": true
+        }
+    ]
+}

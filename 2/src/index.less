@@ -1,0 +1,29 @@
+@import "common/css/normalize";
+@import "common/css/mixins";
+
+html,
+body,
+#app {
+    height: 100%;
+}
+
+.ant-layout-content {
+    padding: 20px;
+}
+
+.content-wrapper {
+    height: calc(~"100% - 70px");
+}
+
+.layout-sider-area {
+    float: left;
+    width: 250px;
+    height: 100%;
+}
+
+.layout-right-area {
+    float: left;
+    height: 100%;
+    width: calc(~"100% - 250px");
+    overflow: scroll;
+}

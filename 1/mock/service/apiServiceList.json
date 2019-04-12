@@ -1,0 +1,38 @@
+{
+    "ret": "SUCCESS",
+    "msg": "处理成功",
+    "content": {
+      "list": [
+        {
+          "serviceCode": "s0000",
+          "serviceName": "服务名称",
+          "categoryName": "服务类型",
+          "createTime": "2018-06-01",
+          "lastReqTime": "2018-06-01",
+          "status": "INIT"
+        },
+        {
+          "serviceCode": "s0001",
+          "serviceName": "服务名称",
+          "categoryName": "服务类型",
+          "createTime": "2018-06-01",
+          "lastReqTime": "2018-06-01",
+          "status": "ON"
+        },
+        {
+          "serviceCode": "s0002",
+          "serviceName": "服务名称",
+          "categoryName": "服务类型",
+          "createTime": "2018-06-01",
+          "lastReqTime": "2018-06-01",
+          "status": "OFF"
+        }
+      ],
+      "paginator": {
+        "pageNo": 1,
+        "totalCount": 1,
+        "pageSize": 10
+      }
+    }
+}
+  

@@ -1,0 +1,22 @@
+{
+    "ret": "SUCCESS",
+    "msg": "添加成功",
+    "content": [
+        {
+            "roleId": 1,
+            "roleName": "admin"
+        },
+        {
+            "roleId": 2,
+            "roleName": "admins"
+        },
+        {
+            "roleId": 3,
+            "roleName": "role"
+        },
+        {
+            "roleId": 4,
+            "roleName": "good"
+        }
+    ]
+}

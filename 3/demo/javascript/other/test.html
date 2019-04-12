@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <script>
+       var obj = {a:1,arr:[2,3]};
+       var shallowObj = shallowCopy(obj)
+       function shallowCopy (src) {
+          var newObject = {}
+          for (var prop in src) {    // for in 用来循环对象属性的
+            if (src.hasOwnProperty(prop)) {
+              newObject[prop] = src[prop]
+            }
+          }
+          return newObject
+       }
+       // 浅拷贝，只是将对象身上的各个属性依次进行复制，并不会进行递归复制
+       // 深拷贝
+       var china = {
+          nation : '中国',
+          birthplaces:['北京','上海','广州'],
+          skincolr :'yellow',
+          friends:['sk','ls']
+       }
+       function deepCopy (o,c) {
+          var c = c || {}
+          for (var i in o) {
+            if (typeof o[i] === 'object') {  // typeof 用来判断返回的数据类型
+              
+            }
+          }
+       }
+
+    </script>
+</body>
+</html>

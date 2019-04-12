@@ -1,0 +1,59 @@
+{
+    "ret": "SUCCESS",
+    "msg": "ok",
+    "content": {
+        "userId": "98",
+        "userName": "admin",
+        "logoutUrl": "http://10.64.5.49:8089/cas/logout",
+        "spaces": [
+            {
+                "spaceId": 1,
+                "spaceName": "业务组"
+            },
+            {
+                "spaceId": 2,
+                "spaceName": "感知组"
+            },
+            {
+                "spaceId": 3,
+                "spaceName": "思维组"
+            },
+            {
+                "spaceId": 4,
+                "spaceName": "业务组"
+            },
+            {
+                "spaceId": 5,
+                "spaceName": "感知组"
+            },
+            {
+                "spaceId": 6,
+                "spaceName": "思维组"
+            },
+            {
+                "spaceId": 7,
+                "spaceName": "业务组"
+            },
+            {
+                "spaceId": 8,
+                "spaceName": "感知组"
+            },
+            {
+                "spaceId": 9,
+                "spaceName": "思维组"
+            },
+            {
+                "spaceId": 10,
+                "spaceName": "业务组业务组业务组业务组业务组"
+            },
+            {
+                "spaceId": 11,
+                "spaceName": "感知组"
+            },
+            {
+                "spaceId": 12,
+                "spaceName": "思维组"
+            }
+        ]
+    }
+}

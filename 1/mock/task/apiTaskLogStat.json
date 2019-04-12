@@ -1,0 +1,17 @@
+{
+  "ret": "SUCCESS",
+  "msg": "处理成功",
+  "content": {
+    "result": [
+      {
+        "name": "通过",
+        "value": 1
+      },
+      {
+        "name": "拒绝",
+        "value": 2
+      }
+    ],
+    "taskName": "决策123"
+  }
+}

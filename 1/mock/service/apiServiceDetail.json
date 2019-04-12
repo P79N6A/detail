@@ -1,0 +1,140 @@
+{
+  "ret": "SUCCESS",
+  "msg": "处理成功",
+  "content": {
+    "serviceCode": "service_00012",
+    "serviceName": "测试服务",
+    "serviceDesc": "哈哈哈",
+    "categoryCode": null,
+    "categoryName": null,
+    "status": "OFF",
+    "serviceReqParam": [
+      {
+        "modelName": "hehe",
+        "modelCode": "00123",
+        "modelParam": [
+          {
+            "dataType": "string",
+            "desc": "",
+            "displayName": "身份证号",
+            "isRequire": true,
+            "name": "prcid"
+          },
+          {
+            "dataType": "string",
+            "desc": "",
+            "displayName": "名称",
+            "isRequire": false,
+            "name": "name"
+          }
+        ]
+      },
+      {
+        "modelName": "xxxx",
+        "modelCode": "123123",
+        "modelParam": [
+          {
+            "dataType": "string",
+            "desc": "",
+            "displayName": "身份证号",
+            "isRequire": true,
+            "name": "prcid"
+          }
+        ]
+      }
+    ],
+    "processCode": "process_00027",
+    "processName": "测试流程",
+    "processTypeName": "测试类型",
+    "processDesc": "xxx",
+    "process": [
+      {
+        "processType": "MODEL",
+        "modelCode": "model_77363",
+        "modelName": "模型abcde",
+        "ruleType": "",
+        "ruleList": [
+          {
+            "processType": "RULE",
+            "modelCode": "",
+            "ruleType": "SCORE",
+            "toList": [
+              {
+                "condition": {
+                  "input": "ret",
+                  "op": "BETWEEN",
+                  "value": [
+                    50,
+                    100
+                  ],
+                  "resName": "PASS",
+                  "resCode": "resulttype_00004"
+                },
+                "to": []
+              }
+            ]
+          },
+          {
+            "processType": "RULE",
+            "modelCode": "",
+            "ruleType": "HIT",
+            "toList": [
+              {
+                "condition": {
+                  "input": "ret",
+                  "op": "EQUAL",
+                  "value": [
+                    "1"
+                  ],
+                  "resName": "PASS",
+                  "resCode": "resulttype_00004"
+                },
+                "to": []
+              },
+              {
+                "condition": {
+                  "input": "ret",
+                  "op": "EQUAL",
+                  "value": [
+                    "2"
+                  ],
+                  "resName": "JUMPTO",
+                  "resCode": "resulttype_00001"
+                },
+                "to": [
+                  {
+                    "processType": "MODEL",
+                    "modelCode": "model_77363",
+                    "modelName": "模型abcde",
+                    "ruleType": "",
+                    "ruleList": [
+                      {
+                        "processType": "RULE",
+                        "modelCode": "",
+                        "ruleType": "HIT",
+                        "toList": [
+                          {
+                            "condition": {
+                              "input": "ret",
+                              "op": "EQUAL",
+                              "value": [
+                                "1"
+                              ],
+                              "resName": "PASS",
+                              "resCode": "resulttype_00004"
+                            },
+                            "to": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "ret": "SUCCESS",
+    "msg": "成功",
+    "content": {
+        "modelList": [
+            {
+                "modelConfigId": 1,
+                "modelName": "ssssssssss"
+            },
+            {
+                "modelConfigId": 2,
+                "modelName": "llllllllllll"
+            },
+            {
+                "modelConfigId": 3,
+                "modelName": "fffffffffffffffff"
+            }
+        ]
+    }
+}

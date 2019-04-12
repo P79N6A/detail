@@ -1,0 +1,22 @@
+{
+    "result":
+    {
+        "endpointConfigName": null,
+        "order": null,
+        "orderBy": null,
+        "pageNo": 1,
+        "pageSize": 200,
+        "result": [
+        {
+            "createTime": "2018-11-15 11:04:06",
+            "eTag": "64431a91fbe4d1eb8161652bd74db317",
+            "endpointConfigDescription": "test1",
+            "endpointConfigId": "ifr-awuy7yxgbkp7686w",
+            "endpointConfigName": "test",
+            "modifyTime": "2018-11-16 15:47:01"
+        }],
+        "totalCount": 1
+    },
+    "success": true,
+    "ret": "0"
+}

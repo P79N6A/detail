@@ -1,0 +1,132 @@
+.login-bg-box {
+	background-color: #f3f3f3;
+}
+.login-header {
+	background-color: #fff;
+	height: 46px;
+    .login-header-content {
+        width: 1026px;
+        height: 100%;
+        margin: 0 auto;
+        .login-header-logo {
+            width: 224px;
+            height: 100%;
+            background: url(./img/logo@2x.png) left center no-repeat;  /*  宽1052px; */
+            background-size: 224px;   /* 宽526px; */
+        }
+    }
+}
+.login-content {
+	width: 1026px;
+	height: 480px;
+	padding: 40px;
+	margin: 0 auto;
+	margin-top: 40px;
+	background-color: #fff;
+	.login-content-left {
+        width: 526px;
+        height: 400px;
+        float: left;
+	}
+	.login-bg-img {
+        background: url(./img/login_bg.png) no-repeat; /* 宽526px; */
+    }
+    @media screen and (-webkit-min-device-pixel-ratio:1.5){
+        .login-bg-img{
+            background-image: url(./img/login_bg@2x.png);  /*  宽1052px; */
+            background-size: 526px;   /* 宽526px; */
+        }
+    }
+    /** 覆盖登录框样式 **/
+    .login-content-form {
+        float: right;
+        background-color: #fff;
+        .login-action .submit {
+            background: #4579D9 !important;
+            border: none !important;
+        }
+        .login-title-mine {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 8px;
+            min-width: 380px;
+        }
+        .login-tips {
+            font-size: 12px;
+            color: #9898a7;
+            border-top: 1px solid #eaeaea;
+            margin-top: 15px;
+            padding: 8px 0;
+            .tip-subtitle {
+                color: #333;
+            }
+        }
+    }
+    #login {
+        .login-shadow {
+            display: none;
+        }
+        .watermark {
+            display: none;
+        }
+        #uc-login {
+            background-color: #fff;
+        }
+        .login {
+            width: 380px;
+            -webkit-box-shadow: 0 0 0 0 rgba(0,0,0,0);
+            -moz-box-shadow: 0 0 0 0 rgba(0,0,0,0);
+            box-shadow: 0 0 0 0 rgba(0,0,0,0);
+        }
+        .login-info h2 {
+            display: none;
+        }
+        .account, .password {
+            width: 380px;
+            height: 34px;
+        }
+        .login-info, .login-action {
+            padding: 0;
+            .submit {
+                width: 100%;
+                font-size: 15px;
+            }
+        }
+        #uc-common-account{
+            width: 318px;
+            padding: 7px 9px;
+            height: 100%;
+            width: 330px;
+            box-sizing: border-box;
+        }
+        .password .safe-input {
+            width: 338px;
+            height: 32px;
+            line-height: 32px;
+        }
+        .password input {
+            padding: 0;
+        }
+        .token input {
+            padding-top: 6px;
+            padding-bottom: 6px;
+        }
+        .token img {
+            height: 32px;
+            border: 1px solid #e5e5e5;
+        }
+        .login-action {
+            border-width: 0;
+            background: #fff;
+        }
+        .account span, .password span {
+            margin: 9px 3px 0 10px;
+        }
+    }
+}
+.login-footer {
+    text-align: center;
+    padding: 30px 0;
+    font-size: 12px;
+    color: #999;
+}

@@ -1,0 +1,16 @@
+{
+    "ret": "SUCCESS",
+    "msg": "ok",
+    "content": [
+        {
+            "roleId": "1",
+            "roleName": "编辑",
+            "owned": true
+        },
+        {
+            "roleId": "2",
+            "roleName": "查看",
+            "owned": false
+        }
+    ]
+}

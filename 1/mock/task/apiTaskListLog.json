@@ -1,0 +1,47 @@
+{
+    "ret": "SUCCESS",
+    "msg": "处理成功",
+    "content": {
+      "list": [
+        {
+          "taskCode": "t0000",
+          "taskName": "任务名称",
+          "createDate": "2018-05-26",
+          "createTime": "12:12:00",
+          "sampleCount": 100,
+          "logId": 23,
+          "taskStatus": "TOUPLOAD"
+        },
+        {
+          "taskCode": "t0001",
+          "taskName": "任务名称1",
+          "createDate": "2018-05-26",
+          "createTime": "12:12:00",
+          "sampleCount": 100,
+          "logId": 24
+        },
+        {
+          "taskCode": "t0002",
+          "taskName": "任务名称2",
+          "createDate": "2018-05-26",
+          "createTime": "12:12:00",
+          "sampleCount": 100,
+          "logId": 25
+        },
+        {
+          "taskCode": "t0003",
+          "taskName": "任务名称3",
+          "createDate": "2018-05-26",
+          "createTime": "12:12:00",
+          "sampleCount": 100,
+          "logId": 26
+        }
+      ],
+      "paginator": {
+        "pageNo": 1,
+        "totalCount": 1000,
+        "pageSize": 10
+      }
+    }
+}
+  

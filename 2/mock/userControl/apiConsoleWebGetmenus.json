@@ -1,0 +1,128 @@
+{
+    "ret": "SUCCESS",
+    "msg": "ok",
+    "content": [
+        {
+            "pageId": "3",
+            "pageCode": "system-tongji",
+            "children": [
+                {
+                    "pageId": "2-2",
+                    "pageCode": "system-tongji-perceptEngine",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "pageId": "1",
+            "pageCode": "userManager",
+            "children": [
+                {
+                    "pageId": "1-1",
+                    "pageCode": "userManager-userCount",
+                    "children": [
+                        {
+                            "pageId": "1-1-1",
+                            "pageCode": "userManager-userCount-add",
+                            "operation": 2
+                        },
+                        {
+                            "pageId": "1-1-2",
+                            "pageCode": "userManager-userCount-setCount",
+                            "operation": 2
+                        },
+                        {
+                            "userId": "1-1-3",
+                            "pageCode": "userManager-userCount-setRole",
+                            "operation": 2
+                        }
+                    ]
+                },
+                {
+                    "pageId": "1-2",
+                    "pageCode": "userManager-workGroup",
+                    "children": [
+                        {
+                            "pageId": "1-2-1",
+                            "pageCode": "userManager-workGroup-add",
+                            "operation": 2
+                        },
+                        {
+                            "pageId": "1-2-2",
+                            "pageCode": "userManager-workGroup-setMembers",
+                            "operation": 2
+                        },
+                        {
+                            "userId": "1-2-3",
+                            "pageCode": "userManager-workGroup-operation",
+                            "operation": 2
+                        }
+                    ]
+                },
+                {
+                    "pageId": "1-3",
+                    "pageCode": "userManager-roleManager",
+                    "children": [
+                        {
+                            "pageId": "1-3-1-1",
+                            "pageCode": "userManager-rolePermission-add",
+                            "operation": 2
+                        },
+                        {
+                            "pageId": "1-3-1-2",
+                            "pageCode": "userManager-rolePermission-setRole",
+                            "operation": 2
+                        },
+                        {
+                            "pageId": "1-3-2-1",
+                            "pageCode": "userManager-roleManager-userGroup-add",
+                            "operation": 2
+                        },
+                        {
+                            "pageId": "1-3-2-2",
+                            "pageCode": "userManager-roleManager-userGroup-setRole",
+                            "operation": 2
+                        },
+                        {
+                            "pageId": "1-3-2-3",
+                            "pageCode": "userManager-roleManager-userGroup-setMembers",
+                            "operation": 2
+                        },
+                        {
+                            "pageId": "1-3-2-4",
+                            "pageCode": "userManager-roleManager-userGroup-setStatus",
+                            "operation": 2
+                        }
+                    ]
+                },
+                {
+                    "pageId": "1-4",
+                    "pageCode": "userManager-accessLog",
+                    "children": null
+                },
+                {
+                    "pageId": "1-5",
+                    "pageCode": "userManager-dataSource",
+                    "children": null
+                }
+            ]
+        },
+        {
+            "pageId": "2",
+            "pageCode": "approvalManager",
+            "children": [
+                {
+                    "pageId": "2-1",
+                    "pageCode": "approvalManager-managerFlow",
+                    "children": null,
+                    "operation": 1
+                },
+                {
+                    "pageId": "2-2",
+                    "pageCode": "approvalManager-approvalList",
+                    "children": null
+                }
+            ]
+        }
+    ]
+}

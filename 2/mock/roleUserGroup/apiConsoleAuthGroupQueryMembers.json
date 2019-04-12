@@ -1,0 +1,22 @@
+{
+    "ret": "SUCCESS",
+    "msg": "ok",
+    "content": [
+        {
+            "userId": "11",
+            "userName": "张三"
+        },
+        {
+            "userId": "21",
+            "userName": "李四"
+        },
+        {
+            "userId": "31",
+            "userName": "王二"
+        },
+        {
+            "userId": "41",
+            "userName": "麻子"
+        }
+    ]
+}

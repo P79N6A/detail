@@ -1,0 +1,70 @@
+{
+  "ret": "SUCCESS",
+  "msg": "处理成功",
+  "content": {
+    "taskCode": "task_00001",
+    "taskName": "百度风控",
+    "title": "612301111111111000(2018-06-20 12:08:42)",
+    "resultName": "CONTINUE",
+    "taskReqParam": [
+      {
+        "modelName": "hehe",
+        "modelCode": "00123",
+        "modelParam": [
+          {
+            "paramName": "id-用户标示",
+            "paramValue": "123456"
+          },
+          {
+            "paramName": "name-用户名",
+            "paramValue": "abc"
+          }
+        ]
+      },
+      {
+        "modelName": "xxxxxxx",
+        "modelCode": "00123",
+        "modelParam": [
+          {
+            "paramName": "id-用户标示",
+            "paramValue": "123456"
+          },
+          {
+            "paramName": "name-用户名",
+            "paramValue": "abc"
+          }
+        ]
+      }
+    ],
+    "taskRespParam": [
+      {
+        "modelName": "hehe",
+        "modelCode": "00123",
+        "modelParam": [
+          {
+            "paramName": "id-用户标示",
+            "paramValue": "123456"
+          },
+          {
+            "paramName": "name-用户名",
+            "paramValue": "abc"
+          }
+        ]
+      },
+      {
+        "modelName": "xxxxxxx",
+        "modelCode": "00123",
+        "modelParam": [
+          {
+            "paramName": "id-用户标示",
+            "paramValue": "123456"
+          },
+          {
+            "paramName": "name-用户名",
+            "paramValue": "abc"
+          }
+        ]
+      }
+    ]
+  }
+}

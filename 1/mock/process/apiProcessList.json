@@ -1,0 +1,41 @@
+{
+    "ret": "SUCCESS",
+    "msg": "处理成功",
+    "content": {
+      "list": [
+        {
+          "processCode": "p0000",
+          "processName": "流程",
+          "categoryName": "类型",
+          "processStatus": "INIT",
+          "processStatusName": "初始化",
+          "createTime": "2018-05-05",
+          "relateServiceCount": 0
+        },
+        {
+          "processCode": "p0001",
+          "processName": "流程1",
+          "categoryName": "类型",
+          "processStatus": "STASH",
+          "processStatusName": "暂存",
+          "createTime": "2018-05-05",
+          "relateServiceCount": null
+        },
+        {
+          "processCode": "p0002",
+          "processName": "流程2",
+          "categoryName": "类型",
+          "processStatus": "COMPLETE",
+          "processStatusName": "完成",
+          "createTime": "2018-05-05",
+          "relateServiceCount": 10
+        }
+      ],
+      "paginator": {
+        "pageNo": 2,
+        "totalCount": 40,
+        "pageSize": 10
+      }
+    }
+}
+  

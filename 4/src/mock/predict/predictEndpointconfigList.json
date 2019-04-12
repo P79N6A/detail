@@ -1,0 +1,33 @@
+{
+    "ret": "0",
+    "msg": "处理成功",
+    "content": {
+        "totalCount": 1000,
+        "endpointConfigList": [
+            {
+                "createTime": "2018-11-15 10:59:39",
+                "eTag": "fd01027eb1582b1ae59c451a92ee158f",
+                "endpointConfigDescription": "aaa",
+                "endpointConfigId": "ifr-yvfvbqjex67z9q1c",
+                "endpointConfigName": "aaaa",
+                "modifyTime": "2018-11-15 11:02:08"
+            },
+            {
+                "createTime": "2018-11-14 20:38:20",
+                "eTag": "69fde8c708baf923b3c92fd0221a4ecd",
+                "endpointConfigDescription": "aa",
+                "endpointConfigId": "ifr-30ym4u6wc297mq5n",
+                "endpointConfigName": "aaaaa",
+                "modifyTime": "2018-11-14 20:38:20"
+            },
+            {
+                "createTime": "2018-11-14 11:20:48",
+                "eTag": "6d7e7ae1b55460e9a9a6cea384530239",
+                "endpointConfigDescription": "a",
+                "endpointConfigId": "ifr-tevj5akhrku0zk3d",
+                "endpointConfigName": "aa",
+                "modifyTime": "2018-11-14 11:20:48"
+            }
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+常用的Linux命令
+
+
+创建文件夹：mkdir  test
+创建文件: touch test.html
+查看json文件: cat package.json
+打开文件夹/文件: open view/index.js
+
+在终端显示浏览器端的内容: curl localhost:8009
+在终端显示某个文件: vim index.js
+Insert模式和edit模式的切换: esc , shift + :, wq , enter;
+
+命令行查看端口被占用： lsof -i tcp:8899(port)
+命令行杀掉被占用的端口号： kill 624(pid)
+
+mac自带的bash与下载的zsh之间的切换
+切换到bash： chsh -s /bin/bash
+切换到zsh： chsh -s /bin/zsh
+在终端输入命令之后，重新打开终端才能生效

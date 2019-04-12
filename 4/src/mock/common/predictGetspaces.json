@@ -1,0 +1,18 @@
+{
+    "ret": "SUCCESS",
+    "msg": "成功",
+    "content": [
+        {
+            "spaceId": 1,
+            "spaceName": "百度"
+        },
+        {
+            "spaceId": 2,
+            "spaceName": "空间"
+        },
+        {
+            "spaceId": 3,
+            "spaceName": "百信"
+        }
+    ]
+}

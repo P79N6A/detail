@@ -1,0 +1,95 @@
+{
+    "ret": "0",
+    "msg": "ok",
+    "content": {
+        "logStatisticInfos": [
+            {
+                "createTime": "2018-06-23",
+                "createBy": "name1",
+                "accessTimes": "2018-03-24",
+                "createTimeStr": "1",
+                "logModels": [
+                    {
+                        "id": 1,
+                        "createTime": "1544076753513",
+                        "createBy": "max",
+                        "operatContent": "登陆系统",
+                        "operation": "数据导入"
+                    },
+                    {
+                        "id": 2,
+                        "createTime": "1544076753514" ,
+                        "createBy": "min",
+                        "operatContent": "感知引擎",
+                        "operation": "新增角色"
+                    },
+                    {
+                        "id": 3,
+                        "createTime": "1544076753516",
+                        "createBy": "add",
+                        "operatContent": "思维引擎",
+                        "operation": "登陆"
+                    }
+                ]
+            },
+            {
+                "createTime": "2018-06-24",
+                "createBy": "name2",
+                "accessTimes": "2018-03-26",
+                "createTimeStr": "2",
+                "logModels": [
+                    {
+                        "id": 1,
+                        "createTime": "33331313131313",
+                        "createBy": "amdin",
+                        "operatContent": "登陆系统",
+                        "operation": "数据导入"
+                    },
+                    {
+                        "id": 2,
+                        "createTime": "321212121212" ,
+                        "createBy": "user",
+                        "operatContent": "感知引擎",
+                        "operation": "新增角色"
+                    },
+                    {
+                        "id": 3,
+                        "createTime": "232424131313",
+                        "createBy": "putong",
+                        "operatContent": "思维引擎",
+                        "operation": "登陆"
+                    }
+                ]
+            },
+            {
+                "createTime": "2018-06-24",
+                "createBy": "name3",
+                "accessTimes": "2018-03-26",
+                "createTimeStr": "3",
+                "logModels": [
+                    {
+                        "id": 1,
+                        "createTime": "33331313131313",
+                        "createBy": "amdin",
+                        "operatContent": "登陆系统",
+                        "operation": "数据导入"
+                    },
+                    {
+                        "id": 2,
+                        "createTime": "321212121212" ,
+                        "createBy": "user",
+                        "operatContent": "感知引擎",
+                        "operation": "新增角色"
+                    },
+                    {
+                        "id": 3,
+                        "createTime": "232424131313",
+                        "createBy": "putong",
+                        "operatContent": "思维引擎",
+                        "operation": "登陆"
+                    }
+                ]
+            }
+        ]
+    }
+}

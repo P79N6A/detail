@@ -1,0 +1,20 @@
+{
+    "ret": "SUCCESS",
+    "msg": "处理成功",
+    "content": {
+      "list": [
+        {
+          "serviceCode": "s0000",
+          "serviceName": "服务名称",
+          "createDate": "调用日期",
+          "callCount": "20"
+        }
+      ],
+      "paginator": {
+        "pageNo": 1,
+        "totalCount": 1,
+        "pageSize": 10
+      }
+    }
+}
+  

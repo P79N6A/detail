@@ -1,0 +1,33 @@
+{
+    "ret": "SUCCESS",
+    "msg": "处理成功",
+    "content": {
+      "statistics": [
+        {
+          "resultCount": 55,
+          "resultName": "通过"
+        },
+        {
+          "resultCount": 45,
+          "resultName": "拒绝"
+        }
+      ],
+      "sampleContent": [
+        {
+          "sampleId": 123,
+          "accountId": 123,
+          "taskCode": 1232222222,
+          "createTime": "2018-05-20",
+          "resultName": "通过"
+        },
+        {
+          "sampleId": 321,
+          "taskCode": 321111111111111,
+          "accountId": 321,
+          "createTime": "2018-05-20",
+          "resultName": "拒绝"
+        }
+      ]
+    }
+}
+  

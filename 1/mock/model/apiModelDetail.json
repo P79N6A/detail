@@ -1,0 +1,41 @@
+{
+    "ret": "SUCCESS",
+    "msg": "sucuss",
+    "content": {
+        "modelCode": "testModel",
+        "modelName": "测试模型1",
+        "modelDesc": "测试模型描述1",
+        "modelType": "REMOTE",
+        "reqMethod":"POST",
+        "reqUrl":"/api/model/adjust",
+        "modelFormat": "syoulll",
+        "modelId": "1094810480184",
+        "completeStatus": "REQPARAM",
+        "extInfo": "{'ALGORITHM_NAME': 'LinearRegression', 'DATA_TYPE': 'dense', 'NUM_OF_OUTPUT': 2}",
+        "modelReqParam": [
+            {
+                "name": "name",
+                "displayName": "名称",
+                "dataType": "string",
+                "isRequire": false,
+                "desc": ""
+            },
+            {
+                "name": "prcid",
+                "displayName": "身份证号",
+                "dataType": "string",
+                "isRequire": false,
+                "desc": ""
+            }
+        ],
+        "modelRespParam": [
+            {
+                "name": "ret",
+                "displayName": "结果",
+                "dataType": "string",
+                "desc": ""
+            }
+        ]
+    }
+  }
+  

@@ -1,0 +1,11 @@
+{
+    "ret": "SUCCESS",
+    "msg": "处理成功",
+    "content": {
+      "id": 11,
+      "userId": 11111,
+      "createTime": "2018-05-20",
+      "resultName": "决策结果"
+    }
+}
+  

@@ -1,0 +1,31 @@
+{
+    "ret": "SUCCESS",
+    "msg": "添加成功",
+    "content": {
+        "pageContent": [
+            {
+                "spaceId": 1,
+                "spaceName": "空间名",
+                "spaceDesc": "关于空间的描述",
+                "status": "正常",
+                "isNormal": false
+            },
+            {
+                "spaceId": 2,
+                "spaceName": "空间名2",
+                "spaceDesc": "测试",
+                "status": "停用",
+                "isNormal": true
+            },
+            {
+                "spaceId": 3,
+                "spaceName": "空间名3",
+                "spaceDesc": "测试2",
+                "status": "正常",
+                "isNormal": false
+            }
+        ],
+        "pageCount": 1,
+        "totalCount": 3
+    }
+}

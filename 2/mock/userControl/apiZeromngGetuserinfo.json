@@ -1,0 +1,24 @@
+{
+    "ret": "SUCCESS",
+    "msg": "ok",
+    "content": {
+        "userId": "98",
+        "userName": "管理员",
+        "logoutUrl": "http:////",
+        "bankCode": "baixin",
+        "spaces": [
+            {
+                "spaceId": "baidu wallet",
+                "spaceName": "百度钱包"
+            },
+            {
+                "spaceId": "baidu cloud",
+                "spaceName": "百度云"
+            },
+            {
+                "spaceId": "all",
+                "spaceName": "all"
+            }
+        ]
+    }
+}

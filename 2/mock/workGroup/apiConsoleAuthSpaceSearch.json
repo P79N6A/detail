@@ -1,0 +1,24 @@
+{
+    "ret": "SUCCESS",
+    "msg": "添加成功",
+    "content": [
+        {
+            "spaceId": 4,
+            "spaceName": "搜索1",
+            "spaceDesc": "关于空间的描述",
+            "status": "正常"
+        },
+        {
+            "spaceId": 5,
+            "spaceName": "搜索2",
+            "spaceDesc": "测试",
+            "status": "停用"
+        },
+        {
+            "spaceId": 6,
+            "spaceName": "搜索3",
+            "spaceDesc": "测试2",
+            "status": "正常"
+        }
+    ]
+}

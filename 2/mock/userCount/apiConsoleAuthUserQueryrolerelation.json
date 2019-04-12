@@ -1,0 +1,21 @@
+{
+    "ret": "SUCCESS",
+    "msg": "成功",
+    "content": [
+        {
+            "roleId": 1,
+            "roleName": "API服务统计员",
+            "owned": true
+        },
+        {
+            "roleId": 2,
+            "roleName": "用户账户管理员",
+            "owned": false
+        },
+        {
+            "roleId": 3,
+            "roleName": "感知服务管理员",
+            "owned": true
+        }
+    ]
+}

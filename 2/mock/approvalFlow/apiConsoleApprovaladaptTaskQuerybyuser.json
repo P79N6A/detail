@@ -1,0 +1,32 @@
+{
+    "ret": "SUCCESS",
+    "msg": "添加成功",
+    "content": {
+        "pageCount": 10,
+        "totalCount": 100,
+        "pageContent": [
+            {
+                "taskId": "1",
+                "activityId": "2",
+                "bizType": "release",
+                "acName": "预测服务1",
+                "acUrl": "baidu.com",
+                "submitPerson": "张三",
+                "submitTime": "2018-10-31",
+                "todoActivity": "待处理环节",
+                "status": 11
+            },
+            {
+                "taskId": "2",
+                "activityId": "2",
+                "bizType": "release",
+                "acName": "预测服务2",
+                "acUrl": "baidu.com",
+                "submitPerson": "李四",
+                "submitTime": "2018-10-31",
+                "todoActivity": "待处理环节",
+                "status": 12
+            }
+        ]
+    }
+}

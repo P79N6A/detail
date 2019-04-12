@@ -1,0 +1,42 @@
+{
+    "ret": "SUCCESS",
+    "msg": "处理成功",
+    "content": {
+        "modelName": "淮海模型",
+        "modelDesc": "用来测试的模型",
+        "modelType": "REMOTE",
+        "publishTime": "19992",
+        "modelCode": "huai_Model",
+        "modelFormat": "syoulll",
+        "reqParams": [
+            {
+                "type": "input",
+                "name": "name",
+                "displayName": "名称",
+                "desc": "字段描述",
+                "isRequire": true, 
+                "options": "",
+                "dataType": "string",
+                "rule": ""
+            },
+            {
+                "type": "input",
+                "name": "prcid",
+                "displayName": "身份证号",
+                "desc": "字段描述",
+                "isRequire": false,
+                "options": "",
+                "dataType": "string",
+                "rule": ""
+            }
+        ],
+        "respParams": [
+            {
+                "name": "ret",
+                "displayName": "结果",
+                "dataType": "string",
+                "desc": ""
+            }
+        ]
+    }
+  }

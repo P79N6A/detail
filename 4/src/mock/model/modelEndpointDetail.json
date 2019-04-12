@@ -1,0 +1,35 @@
+{
+    "ret": "0",
+    "msg": "处理成功",
+    "content": {
+        "result":{
+            "createTime": "2018-11-19 15:48:11",
+            "eTag": "5ea93ed78675ded1f9f66ed7b8177617",
+            "endpointDescription": "",
+            "endpointId": "ifr-41jnwemawefj0bum",
+            "endpointName": "dasd",
+            "entry": "https://infinite-runtime.bj.baidubce.com/v1/endpoints/dasd/invocations",
+            "modifyTime": "2018-11-20 12:06:21",
+            "status": 8,
+            "statusUpdateTime": "2018-11-20 12:06:21"
+        },
+        "variants":[
+            {
+                "createTime": "2018-11-20 10:05:13",
+                "currentInstanceCount": 0,
+                "varaintConfigId":"DGS-dfds",
+                "currentWeight": 3,
+                "desiredInstanceCount": 2,
+                "varaintConfigName": "hjtfhfjfjygnsfxv",
+                "desiredWeight": 3,
+                "modelConfigId": "ifr-a63mt6ay3epeijcf",
+                "modelConfigName": "resnet50_v1_spatialSqueeze",
+                "resourceConfigId": "ifr-infinite666p4",
+                "resourceConfigName": "CPU-2C_MEM-4G_nGPU-P4-1",
+                "variantConfigId": "ifr-mr1f8cse0e7kdcuj",
+                "variantConfigName": "adsa",
+                "variantId": "ifr-srsrsny2gui5si7m"
+            }
+        ]
+    }
+}

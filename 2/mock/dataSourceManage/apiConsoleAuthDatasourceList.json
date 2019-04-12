@@ -1,0 +1,43 @@
+{
+    "ret": "SUCCESS",
+    "msg": "添加成功",
+    "content": {
+        "pageContent": [
+            {
+                "dataSourceId": 1,
+                "address": "http://ww",
+                "port": 3020,
+                "type": "MYSQL",
+                "name": "数据库",
+                "desc": "用来描述的测试数据查过长度了胡怎么韩式呢那开发了发货",
+                "username": "12345",
+                "password": 12344,
+                "status": "S"
+            },
+            {
+                "dataSourceId": 2,
+                "address": "http://ww",
+                "port": 8080,
+                "type": "HIVE",
+                "name": "数据库",
+                "desc": "用来描述的",
+                "username": "234",
+                "password": 948849,
+                "status": "I"
+            },
+            {
+                "dataSourceId": 3,
+                "address": "http://ww",
+                "port": 9090,
+                "type": "ORACLE",
+                "name": "数据库",
+                "desc": "test",
+                "username": "37939",
+                "password": 12344,
+                "status": "F"
+            }
+        ],
+        "pageCount": 1,
+        "totalCount": 50
+    }
+}

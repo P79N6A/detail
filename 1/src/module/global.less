@@ -1,0 +1,213 @@
+@bluedefault: #548EF9;
+@bluehover: #4677D2;
+@blueactive: #3968C2;
+
+.page-slide {
+    padding: 15px;
+    position: relative;
+    font-weight: bold;
+    font-size: 15px;
+    clear: both;
+    &:before {
+        display: block;
+        width: 3px;
+        height: 1.2em;
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translate(0, -50%);
+        background-color: @bluedefault;
+    }
+}
+.page-sub-slide {
+    padding: 10px 15px 5px;
+    font-weight: 400;
+}
+.page-overflow-hidden {
+    overflow: hidden;
+}
+
+.page-add-bottom {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 199;
+    border-top: 1px solid #eee;
+    padding: 30px;
+    background: #fff;
+    button {
+        margin: 0 15px;
+    }
+}
+
+.page-bottom-100 {
+    padding-bottom: 100px;
+}
+
+.page-spin {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.page-query-form {
+    padding: 15px 0;
+    &:after {
+        clear: both;
+        content: '';
+        display: block;
+    }
+}
+
+.page-by-side {
+    overflow: hidden;
+    .ant-form-item {
+        float: left;
+        width: 50%;
+        margin-bottom: 0;
+    }
+    .page-by-side-item {
+        overflow: hidden;
+        float: left;
+        width: 48%;
+        padding: 0 1%;
+        line-height: 20px;
+        margin: 7px 0;
+        .page-by-side-title {
+            float: left;
+            margin-right: 2em;
+            color: #999;
+            text-align: right;
+        }
+        p {
+            word-wrap: break-word;
+        }
+    }
+}
+
+// antd样式覆盖
+body,
+.page-content {
+    .ant-input {
+        border-radius: 0;
+    }
+
+    .ant-table,
+    .ant-table table,
+    .ant-modal-content,
+    .ant-dropdown-menu,
+    .ant-pagination-item,
+    .ant-select-dropdown,
+    .ant-select-selection,
+    .ant-pagination-item-link,
+    .ant-radio-button-wrapper {
+        border-radius: 0!important;
+    }
+
+    .ant-btn-primary,
+    .ant-btn-primary:focus {
+        background-color: @bluedefault;
+        border-color: @bluedefault;
+        &:hover {
+            background-color: @bluehover;
+            border-color: @bluehover;
+        }
+        &:active {
+            background-color: @blueactive;
+            border-color: @blueactive;
+        }
+    }
+
+    .ant-btn {
+        border-radius: 0 !important;
+        min-width: 80px;
+    }
+    .ant-btn[disabled] {
+        color: rgba(0, 0, 0, .25);
+        background-color: #f7f7f7;
+        border-color: #d9d9d9;
+    }
+
+    .ant-pagination-options {
+        float: left;
+    }
+
+    .ant-collapse {
+        border-radius: 0;
+        border: none;
+        & > .ant-collapse-item {
+            border: none;
+        }
+        .ant-collapse-content {
+            padding: 0;
+            & > .ant-collapse-content-box {
+                padding: 0;
+            }
+        }
+    }
+
+    .ant-popover {
+        .ant-popover-inner {
+            border-radius: 0;
+        }
+    }
+
+    .ant-select-dropdown {
+        border-radius: 0;
+        .ant-select-dropdown-menu-item-active {
+            background-color: #F6FBFF;
+            color: @bluedefault;
+        }
+    }
+    .ant-select-selection:hover {
+        border-color: #dedede;
+        .ant-select-selection-selected-value {
+            color: @bluedefault;
+        }
+        .ant-select-arrow {
+            color: @bluedefault;
+        }
+    }
+    .ant-select-open {
+        .ant-select-selection {
+            background-color: @bluedefault;
+            border: 1px solid @bluedefault;
+            box-shadow: none;
+            .ant-select-selection-selected-value,
+            .ant-select-selection__placeholder {
+                color: #fff;
+            }
+        }
+    }
+
+    .ant-radio-button-wrapper-checked {
+        background: @bluedefault;
+        border-color: @bluedefault;
+        color: #fff;
+        box-shadow: -1px 0 0 0 @bluedefault;
+        z-index: 1;
+        &:hover {
+            border-color: @bluedefault;
+            box-shadow: -1px 0 0 0 @bluedefault;
+            color: #fff;
+        }
+    }
+
+    .ant-table-expand-icon-th,
+    .ant-table-row-expand-icon-cell,
+    .ant-table-expanded-row-level-1 td:first-child {
+        display: none;
+    }
+
+}
+.page-table-handle {
+    display: flex;
+    > a {
+        display: block;
+        margin-right: 8px;
+    }
+}

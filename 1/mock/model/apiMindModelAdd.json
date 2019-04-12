@@ -1,0 +1,8 @@
+{
+    "ret": "SUCCESS",
+    "msg": "处理成功",
+    "content": {
+        "modelCode": "123",
+        "modelName": "风控模型"
+    }
+}

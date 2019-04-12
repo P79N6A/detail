@@ -1,0 +1,17 @@
+{
+    "ret": "SUCCESS",
+    "msg": "ok",
+    "content": {
+        "pageCount": 10,
+        "totalCount": 100,
+        "pageContent": [
+            {
+                "roleId": "1",
+                "roleName": "张三",
+                "privileges": [
+                    "下载", "搜索"
+                ]
+            }
+        ]
+    }
+}

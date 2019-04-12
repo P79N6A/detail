@@ -1,0 +1,118 @@
+{
+    "ret": "SUCCESS",
+    "msg": "ok",
+    "content": [
+        {
+            "roleId": "1",
+            "roleName": "张三san",
+            "privileges": [
+                "下载", "搜索","下载","下载", "搜索","下载","下载", "搜索","下载","下载", "搜索","下载","下载", "搜索","下载","下载", "搜索","下载"
+            ]
+        },
+        {
+            "roleId": "2",
+            "roleName": "李四",
+            "privileges": [
+                "下载", "搜索"
+            ]
+        },
+        {
+            "roleId": "3",
+            "roleName": "张三",
+            "privileges": [
+                "下载", "搜索"
+            ]
+        },
+        {
+            "roleId": "4",
+            "roleName": "李四",
+            "privileges": [
+                "下载", "搜索"
+            ]
+        },
+        {
+            "roleId": "5",
+            "roleName": "张三",
+            "privileges": [
+                "下载", "搜索"
+            ]
+        },
+        {
+            "roleId": "6",
+            "roleName": "李四",
+            "privileges": [
+                "下载", "搜索"
+            ]
+        },
+        {
+            "roleId": "7",
+            "roleName": "张三",
+            "privileges": [
+                "下载", "搜索"
+            ]
+        },
+        {
+            "roleId": "8",
+            "roleName": "李四",
+            "privileges": [
+                "下载", "搜索"
+            ]
+        },
+        {
+            "roleId": "9",
+            "roleName": "张三",
+            "privileges": [
+                "下载", "搜索"
+            ]
+        },
+        {
+            "roleId": "10",
+            "roleName": "李四",
+            "privileges": [
+                "下载", "搜索"
+            ]
+        },
+        {
+            "roleId": "11",
+            "roleName": "张三",
+            "privileges": [
+                "下载", "搜索"
+            ]
+        },
+        {
+            "roleId": "12",
+            "roleName": "李四",
+            "privileges": [
+                "下载", "搜索"
+            ]
+        },
+        {
+            "roleId": "13",
+            "roleName": "张三",
+            "privileges": [
+                "下载", "搜索"
+            ]
+        },
+        {
+            "roleId": "14",
+            "roleName": "李四",
+            "privileges": [
+                "下载", "搜索"
+            ]
+        },
+        {
+            "roleId": "15",
+            "roleName": "张三",
+            "privileges": [
+                "下载", "搜索"
+            ]
+        },
+        {
+            "roleId": "16",
+            "roleName": "李四",
+            "privileges": [
+                "下载", "搜索"
+            ]
+        }
+    ]
+}

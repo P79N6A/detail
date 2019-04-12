@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>css</title>
+    <style>
+       .button {
+            position: absolute;
+            width: 100px;
+            height: 30px;
+            background-color: green;
+        }
+        .vertical {
+            width: 2px;
+            height: 100px;
+            background-color: #ccc;
+            position: absolute;
+        }
+        .horizontal {
+            width: 100px;
+            height: 2px;
+            background-color: #ccc;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+      <div>33333this is good </div>
+    </div>
+    <script>
+        // 目的实现创建一个节点
+        function createNode(nodeName, position, text) {
+            const node = document.createElement('div');
+            node.attr('className', nodeName).style('top', position.top)
+            .style('left', position.left).text(text);
+            return node;
+        }
+        let dataList = {
+            "tmpKey": '001',
+            "processType": "MODEL",
+            "modelCode": "huaihai_model",
+            "ruleType": "",
+            "ruleList": [
+              {
+                "tmpKey": '002',
+                "processType": "RULE",
+                "modelCode": "",
+                "ruleType": "HIT",
+                "toList": []
+              },
+              {
+                "tmpKey": '004',
+                "processType": "RULE",
+                "modelCode": "",
+                "ruleType": "SCORE",
+                "toList": []
+              }
+            ]
+        }
+        function createFlowChart(dataList) {
+            const container = document.createElement('div');
+            if (dataList.processType === 'MODEL') {
+                let buttonNode = createNode('button',{left: 0,top:0}, dataList.modelCode);
+                console.log(buttonNode)
+                container.appendChild(buttonNode);
+            }
+            return container;
+        }
+        var wrapper = document.getElementById('wrapper');
+        wrapper.appendChild(createFlowChart(dataList))
+    </script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+{
+    "ret": "SUCCESS",
+    "msg": "成功",
+    "content": {
+        "pageCount": 1,
+        "totalCount": 40,
+        "pageContent": [
+            {
+                "userId": 1,
+                "userName": "putonguser1",
+                "phone": "11111111111",
+                "email": "12324@163.com",
+                "status": "正常",
+                "spaceList": ["abchd", "用户组","用户角色"],
+                "roleList": [
+                    {
+                        "roleName": "掌上生活",
+                        "isGroup": false
+                    },
+                    {
+                        "roleName": "用户组",
+                        "isGroup": true
+                    },
+                    {
+                        "roleName": "用户角色",
+                        "isGroup": false
+                    }
+                ]
+            },
+            {
+                "userId": 2,
+                "userName": "putonguser1",
+                "phone": "22222222222",
+                "email": "2222@163.com",
+                "status": "正常",
+                "spaceList": ["掌上生活", "用户组","用户角色"],
+                "roleList": [
+                    {
+                        "roleName": "掌上生活",
+                        "isGroup": false
+                    },
+                    {
+                        "roleName": "用户组",
+                        "isGroup": true
+                    },
+                    {
+                        "roleName": "用户角色",
+                        "isGroup": false
+                    }
+                ]
+            },
+            {
+                "userId": 3,
+                "userName": "putonguser3",
+                "phone": "3333",
+                "email": "3333@163.com",
+                "status": "停用",
+                "spaceList": ["掌上生活"],
+                "roleList": [
+                    {
+                        "roleName": "感知管理员",
+                        "isGroup": false
+                    },
+                    {
+                        "roleName": "感知高级管理员",
+                        "isGroup": true
+                    },
+                    {
+                        "roleName": "用户角色",
+                        "isGroup": false
+                    }
+                ]
+            }
+        ]
+    }
+}

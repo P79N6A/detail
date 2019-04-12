@@ -1,0 +1,22 @@
+{
+    "ret": "SUCCESS",
+    "msg": "添加成功",
+    "content": {
+        "spaceId": 1,
+        "spaceName": "业务组",
+        "spaceDesc": "业务组描述",
+        "bigdataUser": "大数据平台",
+        "yarnQueue": "yarn Queue",
+        "status": "1",
+        "statusList": [
+            {
+                "statusCode": "1",
+                "statusName": "正常"
+            },
+            {
+                "statusCode": "0",
+                "statusName": "停用"
+            }
+        ]
+    }
+}

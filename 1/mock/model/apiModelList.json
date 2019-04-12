@@ -1,0 +1,46 @@
+{
+    "ret": "SUCCESS",
+    "msg": "处理成功",
+    "content": {
+      "existList": [
+            {
+                "modelId": "huai_model_1",
+                "modelName": "淮海模型_11"
+            },
+            {
+                "modelId": "test_model_1",
+                "modelName": "测试模型_22"
+            }
+      ],
+      "newList": [
+            {
+                "modelId": "test_id_2",
+                "modelName": "测试模型_33"
+            },
+            {
+                "modelId": "add_id_2",
+                "modelName": "新添加模型_44"
+            }
+      ],
+      "offList": [
+            {
+                "modelId": "huai_model_3",
+                "modelName": "淮海模型_55"
+            },
+            {
+                "modelId": "test_model_4",
+                "modelName": "测试模型_66"
+            }
+      ],
+      "remoteList": [
+            {
+                "modelId": "huai_model",
+                "modelName": "淮海模型_77"
+            },
+            {
+                "modelId": "test_model",
+                "modelName": "测试模型_88"
+            }
+      ]
+    }
+  }

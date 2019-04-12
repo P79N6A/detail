@@ -1,0 +1,54 @@
+{
+    "ret": "SUCCESS",
+    "msg": "ok",
+    "content": [
+        {
+            "groupId": "1",
+            "groupName": "百度云智能一部",
+            "status": "正常",
+            "isNormal": true
+        },
+        {
+            "groupId": "2",
+            "groupName": "管理员",
+            "status": "停用",
+            "isNormal": false
+        },
+        {
+            "groupId": "3",
+            "groupName": "百度云智能一部",
+            "status": "正常",
+            "isNormal": true
+        },
+        {
+            "groupId": "4",
+            "groupName": "管理员",
+            "status": "停用",
+            "isNormal": true
+        },
+        {
+            "groupId": "5",
+            "groupName": "百度云智能一部",
+            "status": "正常",
+            "isNormal": true
+        },
+        {
+            "groupId": "6",
+            "groupName": "管理员",
+            "status": "停用",
+            "isNormal": true
+        },
+        {
+            "groupId": "7",
+            "groupName": "百度云智能一部",
+            "status": "正常",
+            "isNormal": true
+        },
+        {
+            "groupId": "8",
+            "groupName": "管理员",
+            "status": "停用",
+            "isNormal": true
+        }
+    ]
+}

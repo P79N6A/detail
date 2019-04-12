@@ -1,0 +1,39 @@
+{
+    "ret": "SUCCESS",
+    "msg": "处理成功",
+    "content": {
+      "serviceCode": "t000",
+      "serviceName": "任务名称",
+      "title": "任务报告标题",
+      "resultName": "决策结果",
+      "serviceReqParam": [
+        {
+          "paramName": "用户名",
+          "paramValue": "dfg"
+        },
+        {
+          "paramName": "手机号",
+          "paramValue": "1350234935"
+        },
+        {
+          "paramName": "信用分",
+          "paramValue": "760"
+        }
+      ],
+      "serviceRespParam": [
+        {
+          "paramName": "是否命中黑名单",
+          "paramValue": "dfg"
+        },
+        {
+          "paramName": "是否命中多头",
+          "paramValue": "1350234935"
+        },
+        {
+          "paramName": "是否命中黑产",
+          "paramValue": "760"
+        }
+      ]
+    }
+}
+  

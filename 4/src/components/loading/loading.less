@@ -1,0 +1,44 @@
+.loading {
+    display: inline-block;
+    .red-ball {
+        background: red;
+        display: inline-block;
+        position: relative;
+        width: 10px;
+        height: 10px;
+        border-radius: 5px;
+        animation:redball 2s infinite;
+    }
+    .blue-ball {
+        background: blue;
+        display: inline-block;
+        width: 10px;
+        position: relative;
+        left: 6px;
+        height: 10px;
+        border-radius: 5px;
+        animation:blueball 2s infinite;
+    }
+}
+@keyframes redball {
+    0% {
+        left: 0;
+    }
+    50% {
+        left: 15px;
+    }
+    100% {
+        left: 0;
+    }
+}
+@keyframes blueball {
+    0% {
+        left: 6px;
+    }
+    50% {
+        left: -9px;
+    }
+    100% {
+        left: 6px;
+    }
+}

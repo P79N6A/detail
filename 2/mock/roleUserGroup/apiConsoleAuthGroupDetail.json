@@ -1,0 +1,19 @@
+{
+    "ret": "SUCCESS",
+    "msg": "ok",
+    "content": {
+        "groupId": "1",
+        "groupName": "编辑部",
+        "status": 1,
+        "statusList": [
+            {
+                "statusCode": 1,
+                "statusName": "正常"
+            },
+            {
+                "statusCode": 2,
+                "statusName": "停用"
+            }
+        ]
+    }
+}

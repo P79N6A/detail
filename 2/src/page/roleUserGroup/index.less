@@ -1,0 +1,87 @@
+.roleUserGroup-wrapper {
+
+    .role-table-header {
+        overflow: hidden;
+
+        .add-role {
+            float: right;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.setRoleForm-wrapper,
+.addUserGroupForm-wrapper {
+    ::-webkit-scrollbar {
+        -webkit-appearance: none;
+        width: 7px;
+        height: 7px;
+    }
+    ::-webkit-scrollbar-thumb {
+        border-radius: 4px;
+        background-color: rgba(0,0,0,.5);
+        -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+    }
+}
+
+.setMembersForm-wrapper {
+    .table-area {
+        max-height: 300px;
+        overflow: scroll;
+    }
+    .search-area {
+        margin-top: 20px;
+
+        .ant-select {
+            width: 200px;
+        }
+
+        span {
+            margin-right: 10px;
+        }
+    }
+}
+
+.addUserGroupForm-wrapper {
+    .search-area {
+        .ant-select {
+            width: 100%;
+        }
+    }
+
+    .members-area {
+        margin-top: 10px;
+
+        span {
+            padding: 5px 10px;
+            border: 1px solid #e8e8e8;
+            border-radius: 5px;
+            margin: 5px;
+        }
+    }
+}
+
+.setRoleForm-wrapper {
+    .ant-modal-body {
+        padding: 0;
+    }
+
+    .ant-form-item {
+        margin-bottom: 0;
+        padding-left: 24px;
+    }
+}
+
+.role-checkbox-wrapper {
+    width: 100%;
+    max-height: 100px;
+    overflow: scroll;
+    overflow-x: visible;
+
+
+    .role-checkbox.ant-checkbox-wrapper {
+        display: block;
+        margin-left: 0;
+        margin-top: 5px;
+    }
+}
